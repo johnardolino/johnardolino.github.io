@@ -17,6 +17,12 @@ h1 {
 	color: #ffffff;
 }
 
+nav a {
+	color: cccccc;
+	font-style: italic;
+	margin-right: 10px;
+}
+
 
 #slogan {
 	font-style: italic;
