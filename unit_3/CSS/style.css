@@ -27,7 +27,8 @@ img {
 }
 
 a {
-	text-decoration-color: none: #42f477
+	color: #42f477
+	text-decoration: none;
 }
 
 
