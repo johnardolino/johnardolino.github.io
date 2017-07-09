@@ -17,6 +17,11 @@ h1 {
 	color: #ffffff;
 }
 
+a {
+	color: #42f477
+	text-decoration: none;
+}
+
 #slogan {
 	font-style: italic;
 }
@@ -32,9 +37,12 @@ img {
 	width: 100%;
 }
 
-a {
-	color: #42f477
-	text-decoration: none;
+main {
+	padding: 20px;
+}
+
+ul {
+	padding-left: 20px;
 }
 
 
