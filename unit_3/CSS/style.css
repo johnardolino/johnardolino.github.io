@@ -17,16 +17,15 @@ h1 {
 	color: #ffffff;
 }
 
+#slogan {
+	font-style: italic;
+}
+
 nav a {
 	color: cccccc;
 	font-style: italic;
 	margin-right: 10px;
 	text-decoration: none;
-}
-
-
-#slogan {
-	font-style: italic;
 }
 
 img {
