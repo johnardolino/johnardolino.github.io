@@ -19,7 +19,7 @@ h1 {
 }
 
 a {
-	color: #33345e;
+	color: #e8702a;
 	text-decoration: none;
 }
 
@@ -28,8 +28,7 @@ a {
 }
 
 nav a {
-	color: #33345e;
-	background-color: #e8702a;
+	color: #e8702a;
 	font-style: italic;
 	margin-right: 10px;
 	text-decoration: none;
