@@ -17,10 +17,10 @@ header {
 
 h1 {
 	font-family: 'PT Serif', serif;
-	font-size: 48px;
+	font-size: 60px;
 	color: #fff;
 	text-transform: uppercase;
-	letter-spacing: 2px;
+	letter-spacing: 4px;
 	text-align: center;
 }
 
@@ -37,7 +37,7 @@ h1 {
 nav a {
 	font-family: 'PT Serif', serif;
 	color: #e8702a;
-	margin-right: 10px;
+	margin-left: 10px;
 	text-decoration: none;
 	font-weight: 600;
 	letter-spacing: 2px
