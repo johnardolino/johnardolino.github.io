@@ -28,7 +28,7 @@ h1 {
 #slogan {
 	font-family: 'PT Serif', serif;
 	font-style: italic;
-	font-size: 2em;
+	font-size: 1.5em;
 	color: #fff;
 	background-color: #0b1e3d;
 	padding: 15px;
@@ -38,7 +38,7 @@ h1 {
 
 nav a {
 	font-family: 'PT Serif', serif;
-	font-size: 1em;
+	font-size: 1.5em;
 	color: #e8702a;
 	margin-left: 10px;
 	text-decoration: none;
@@ -51,7 +51,7 @@ img {
 }
 
 main {
-	font-size: 2em;
+	font-size: 1.5em;
 	padding: 20px;
 }
 
