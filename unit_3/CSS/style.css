@@ -4,7 +4,7 @@
 }
 
 body {
-	font-family: helvetica, arial, sans-serif;
+	font-family: 'Arimo', sans-serif;
 	font-size: 20px;
 	color: #222222;
 	background-color: #ffbe4f;
@@ -15,19 +15,23 @@ header {
 	padding: 15px;
 }
 h1 {
+	font-family: 'PT Serif', serif;
 	color: #0c0c0c;
 }
 
 a {
+	font-family: 'PT Serif', serif;
 	color: #e8702a;
 	text-decoration: none;
 }
 
 #slogan {
+	font-family: 'PT Serif', serif;
 	font-style: italic;
 }
 
 nav a {
+	font-family: 'PT Serif', serif;
 	color: #e8702a;
 	font-style: italic;
 	margin-right: 10px;
