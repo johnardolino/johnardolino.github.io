@@ -37,7 +37,7 @@ h1 {
 nav a {
 	font-family: 'PT Serif', serif;
 	color: #e8702a;
-	text-align: center;
+	padding: 0 32px;
 	text-decoration: none;
 	font-weight: 600;
 	letter-spacing: 2px
