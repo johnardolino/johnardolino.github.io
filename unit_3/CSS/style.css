@@ -39,8 +39,16 @@ img {
 }
 
 main {
-	font-family: 'Arimo', sans-serif;
 	padding: 20px;
+}
+
+#me {
+	font-family: 'Muli', sans-serif;
+}
+
+#email {
+	font-family: 'PT Serif', serif;
+
 }
 
 ul {
@@ -48,7 +56,6 @@ ul {
 }
 
 a {
-	font-family: 'Arimo', sans-serif;
 	color: #e8702a;
 	text-decoration: none;
 }
