@@ -51,6 +51,10 @@ main {
 
 }
 
+hr{
+	border: 1px solid black
+}
+
 ul {
 	padding-left: 20px;
 }
