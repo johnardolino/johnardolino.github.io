@@ -11,20 +11,22 @@ body {
 }
 
 header {
-	background-color: #6bd2db;
+	background-color: #0c457d;
 	padding: 15px;
 }
 
 h1 {
 	font-family: 'PT Serif', serif;
 	font-size: 48px;
-	color: #0c0c0c;
+	color: #fff;
 	text-transform: uppercase;
 }
 
 #slogan {
 	font-family: 'PT Serif', serif;
 	font-style: italic;
+	color: #fff;
+	background-color: #0c457d;
 }
 
 nav a {
