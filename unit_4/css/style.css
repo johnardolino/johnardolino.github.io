@@ -1,0 +1,74 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 16px;
+	color: #222222;
+	background-color: #ffbe4f;
+	line-height: 1.3;
+}
+
+header {
+	background-color: #0b1e3d;
+	padding: 15px;
+}
+
+h1 {
+	font-family: 'PT Serif', serif;
+	font-size: 3em;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	text-align: center;
+}
+
+#slogan {
+	font-family: 'PT Serif', serif;
+	font-style: italic;
+	font-size: 1.5em;
+	color: #fff;
+	background-color: #0b1e3d;
+	padding: 15px;
+	letter-spacing: 2px;
+	text-align: center;
+}
+
+nav a {
+	font-family: 'PT Serif', serif;
+	font-size: 1.5em;
+	color: #e8702a;
+	margin-left: 10px;
+	text-decoration: none;
+	font-weight: 600;
+	letter-spacing: 2px
+}
+
+img {
+	width: 100%;
+}
+
+main {
+	font-size: 1.5em;
+	padding: 20px;
+}
+
+hr{
+	border: none;
+	height: 3px;
+	color: #e8702a;
+}
+
+ul {
+	font-family: 'Muli', sans-serif;
+	padding-left: 20px;
+}
+
+a {
+	color: #e8702a;
+	text-decoration: none;
+}
+
+
