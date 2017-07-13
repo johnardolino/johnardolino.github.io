@@ -20,6 +20,8 @@ h1 {
 	font-size: 48px;
 	color: #fff;
 	text-transform: uppercase;
+	letter-spacing: 2px;
+	text-align: center;
 }
 
 #slogan {
@@ -28,6 +30,8 @@ h1 {
 	color: #fff;
 	background-color: #0b1e3d;
 	padding: 15px;
+	letter-spacing: 2px;
+	text-align: center;
 }
 
 nav a {
