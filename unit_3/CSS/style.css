@@ -19,6 +19,7 @@ h1 {
 	font-family: 'PT Serif', serif;
 	font-size: 48px;
 	color: #0c0c0c;
+	text-transform: uppercase;
 }
 
 #slogan {
@@ -29,9 +30,10 @@ h1 {
 nav a {
 	font-family: 'PT Serif', serif;
 	color: #e8702a;
-	font-style: italic;
 	margin-right: 10px;
 	text-decoration: none;
+	font-weight: 600;
+	letter-spacing: 2px
 }
 
 img {
@@ -52,10 +54,13 @@ main {
 }
 
 hr{
-	border: 1px solid black
+	border: none;
+	height: 3px;
+	color: #e8702a;
 }
 
 ul {
+	font-family: 'Muli', sans-serif;
 	padding-left: 20px;
 }
 
