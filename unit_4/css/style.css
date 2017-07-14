@@ -36,7 +36,6 @@ h1 {
 	color: #fff;
 	background-color: #0b1e3d;
 	padding: 15px;
-	margin: 10px;
 	letter-spacing: 2px;
 	text-align: center;
 }
@@ -45,7 +44,7 @@ nav a {
 	font-family: 'PT Serif', serif;
 	font-size: 1.5em;
 	color: #e8702a;
-	margin-left: 10px;
+	margin: 10px;
 	text-decoration: none;
 	font-weight: 600;
 	letter-spacing: 2px;
