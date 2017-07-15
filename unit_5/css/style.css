@@ -10,7 +10,7 @@ body {
 	line-height: 1.3;
 }
 
-header{
+header {
 	background-image: url("Owl_Header_1.jpg");
 }
 
@@ -27,6 +27,7 @@ h1 {
 	padding: 15px;
 	letter-spacing: 2px;
 }
+
 
 nav a {
 	font-size: 1.5em;
