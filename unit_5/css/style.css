@@ -28,6 +28,7 @@ h1 {
 }
 
 #slogan {
+	font-family: "Space Mono", monospace;
 	font-style: italic;
 	font-size: 1.5em;
 	padding: 15px;
