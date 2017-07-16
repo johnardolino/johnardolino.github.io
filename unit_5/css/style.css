@@ -30,7 +30,7 @@ h1 {
 #slogan {
 	font-family: 'Happy Monkey', cursive;
 	font-style: italic;
-	font-size: 1.5em;
+	font-size: 2em;
 	padding: 15px;
 	letter-spacing: 2px;
 	background-color: #6CB23E;
@@ -44,6 +44,9 @@ nav a {
 	text-decoration: none;
 	font-weight: 600;
 	letter-spacing: 2px;
+}
+p{
+	font-size: 2em;
 }
 
 img {
