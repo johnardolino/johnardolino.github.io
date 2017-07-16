@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Oldenburg|Ovo|Space+Mono');
+
 * {
 	padding: 0;
 	margin: 0;
 }
 
 body {
+	font-family: "Space Mono", monospace;
 	font-size: 16px;
 	color: #222222;
 	background-color: #FFB138;
@@ -15,6 +18,7 @@ header {
 }
 
 h1 {
+	font-family: 'Ovo', serif;
 	font-size: 3em;
 	font-weight: bold;
 	text-transform: uppercase;
