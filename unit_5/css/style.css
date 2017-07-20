@@ -14,6 +14,9 @@ body {
 }
 
 header {
+	padding: 40px;
+	margin: 40px;
+	border: solid 5px green;
 	background-image: url("Owl_Header_1.jpg");
 }
 
