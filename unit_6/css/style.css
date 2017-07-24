@@ -1,31 +1,44 @@
-@import url('https://fonts.googleapis.com/css?family=Quicksand|Vidaloka');
+@import url('https://fonts.googleapis.com/css?family=News+Cycle|Ultra');
 
 * {
 	padding: 0;
 	margin: 0;
-	/*box-sizing: border-box;*/
+	box-sizing: border-box;
 }
 
 body {
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'News Cycle', sans-serif;
 	font-size: 16px;
 	color: #222222;
-	background-color: #FFD700;
+	background-color: #FFf;
 	line-height: 1.3;
 }
 
+nav a{
+	/*background-color: #E8C66A;*/
+	/*border: 1px black solid;*/
+	padding: 40px;
+	font-size: 1.5em;
+	color: #090A0A;
+	/*margin-left: 10px;
+	margin-right: 10px;*/
+	text-align: center;
+	text-decoration: none;
+	font-weight: 600;
+	letter-spacing: 2px;
+}
+
 header {
-	background-color: #FFED74;
+	/*background-color: #FFED74;*/
 	border: 1px black solid;
-	padding: 20px;
-	/*padding: 40px;
-	margin: 40px;
-	border: solid 5px green;*/
+	padding: 10px;
+	margin: 10px;
+	border: solid 5px black;
 }
 
 h1 {
-	font-family: 'Vidaloka', serif;
-	font-size: 3em;
+	font-family: 'Ultra', serif;
+	font-size: 4em;
 	font-weight: bold;
 	padding: 15px;
 	letter-spacing: 4px;
@@ -33,37 +46,29 @@ h1 {
 }
 
 h1 img {
-	max-width: 50px;
+	max-width: 90px;
 	display: inline-block;
 }
 
 #slogan {
-	/*font-style: italic;
+	font-style: italic;
 	font-size: 2em;
-	padding: 15px;
-	letter-spacing: 2px;*/
+	padding: 5px;
+	margin: 10px;
+	letter-spacing: 2px;
 }
 
-nav a {
-	background-color: #E8C66A;
-	border: 1px black solid;
-	padding: 20px;
-	/*font-size: 1.5em;
-	color: #14B200;
-	margin-left: 10px;
-	margin-right: 10px;
-	text-align: center;
-	text-decoration: none;
-	font-weight: 600;
-	letter-spacing: 2px;*/
-}
 
 article {
-	background-color: #E89C6C;
+	background-color: #fff;
 	border: 1px black solid;
 	padding: 20px;
 	width: 66%;
 	display:inline-block;
+}
+
+#headline {
+	font-size: 1.75em;
 }
 
 article img {
@@ -71,7 +76,8 @@ article img {
 }
 
 aside {
-	background-color: #FFC675;
+	color: #fff;
+	background-color: #1E40FF;
 	border: 1px black solid
 	padding: 20px;
 	width: 30%;
@@ -82,8 +88,8 @@ aside {
 
 
 p{
-	/*font-size: 1.75em;
-	margin: 10px;*/
+	font-size: 1.75em;
+	margin: 10px;
 }
 
 img {
@@ -91,20 +97,20 @@ img {
 }
 
 a{
-	/*color: #14B200;
-	text-decoration: none;*/
+	color: #14B200;
+	text-decoration: none;
 }
 
 footer{
-	background-color: #FF957E;
+	/*background-color: #FF957E;*/
 	border: 1px black solid;
 	padding: 20px;
-	/*text-align: center;
-	background-color: #eee;*/
+	text-align: center;
+	background-color: #eee;
 }
 
 div/section {
-	background-color: #FFE2B8;
+	/*background-color: #FFE2B8;*/
 	border: 1px black solid;
 	padding: 20px;
 }
