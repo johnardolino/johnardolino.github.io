@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Droid+Serif:700|News+Cycle');
+/*@import url('https://fonts.googleapis.com/css?family=Kumar+One|News+Cycle');*/
+
 
 * {
 	padding: 0;
@@ -62,9 +64,10 @@ header {
 }
 
 h1 {
+	/*font-family: 'Kumar One', cursive;*/
 	font-family: 'Droid Serif', serif;
 	font-size: 4em;
-	font-weight: bold;
+	font-weight: normal;
 	padding: 15px;
 	letter-spacing: 10px;
 	color: #000;
