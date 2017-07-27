@@ -111,6 +111,10 @@ article img {
 	float: right;
 }
 
+/*figcaption {
+	float: right;
+}*/
+
 /*aside {
 	color: #fff;
 	background-color: #1E40FF;
@@ -176,6 +180,11 @@ footer{
 	padding: 20px;
 	text-align: center;
 	background-color: #eee;
+}
+
+a {
+	color: #222222;
+	text-decoration: none;
 }
 
 div/section {
