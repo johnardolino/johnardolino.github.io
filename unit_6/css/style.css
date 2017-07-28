@@ -19,14 +19,7 @@ body {
 nav {
 	background-color: #fff;
 	font-family: 'News Cycle', sans-serif;
-	/*border: 1px black solid;*/
-	/*padding: 40px;*/
 	font-size: 1.5em;
-	/*color: #000;*/
-	/*margin-left: 10px;
-	margin-right: 10px;*/
-	/*text-align: center;*/
-	/*text-decoration: none;*/
 	font-weight: 600;
 	letter-spacing: 5px;
 	word-spacing: 30px;
@@ -66,7 +59,7 @@ h1 {
 #slogan {
 	font-style: italic;
 	font-size: 2em;
-	padding: 25px;
+	padding-bottom: 25px;
 	margin: 0 10 20 10;
 	letter-spacing: 2px;
 }
