@@ -41,21 +41,11 @@ nav a{
 	padding: 20px;
 }
 
-.clearfix:after {
-	visibility: hidden;
-	display: block;
-	content: " ";
-	clear: both;
-	height: 0;
-	font-size: 0;
-}
-
 a:hover {
 	background-color: #aaaaaa;
 }
 
 header {
-	/*background-color: #FFED74;*/
 	text-align: center;
 	border: 1px black solid;
 	padding: 10px;
@@ -73,12 +63,6 @@ h1 {
 	color: #000;
 }
 
-/*h1 img {
-	max-width: 90px;
-	display: inline-block;
-}*/
-
-
 #slogan {
 	font-style: italic;
 	font-size: 2em;
@@ -86,15 +70,6 @@ h1 {
 	margin: 0 10 20 10;
 	letter-spacing: 2px;
 }
-
-
-/*article {
-	background-color: #fff;
-	border: 1px black solid;
-	padding: 20px;
-	width: 66%;
-	display:inline-block;
-}*/
 
 #headline {
 	font-size: 2.3em;
@@ -113,16 +88,6 @@ article img {
 
 /*figcaption {
 	float: right;
-}*/
-
-/*aside {
-	color: #fff;
-	background-color: #1E40FF;
-	border: 1px black solid
-	padding: 20px;
-	width: 30%;
-	display: inline-block;
-	vertical-align: top;
 }*/
 
 #fly {
@@ -175,7 +140,6 @@ img {
 }
 
 footer{
-	/*background-color: #FF957E;*/
 	border: 1px black solid;
 	padding: 20px;
 	text-align: center;
@@ -188,8 +152,6 @@ a {
 }
 
 div/section {
-	/*background-color: #FFE2B8;*/
 	border: 1px black solid;
 	padding: 20px;
-}
 }
