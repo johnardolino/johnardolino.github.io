@@ -92,6 +92,33 @@ img {
 	width: 100%;
 }
 
+a {
+	color: #222222;
+	text-decoration: none;
+}
+
+div/section {
+	border: 1px black solid;
+	padding: 2%;
+}
+
+footer {
+	border: 1px black solid;
+	padding: 2%;
+	text-align: center;
+	background-color: #eee;
+}
+
+label {
+	background-color: #fff;
+	color: black;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	padding: 2%;
+	display: none;
+}
+
 #fly {
 	font-size: 2.2em;
 	font-weight: bold;
@@ -120,33 +147,6 @@ img {
 	float: right;
 	width: 36%;
 	text-align: center;
-}
-
-a {
-	color: #222222;
-	text-decoration: none;
-}
-
-div/section {
-	border: 1px black solid;
-	padding: 2%;
-}
-
-footer {
-	border: 1px black solid;
-	padding: 2%;
-	text-align: center;
-	background-color: #eee;
-}
-
-label {
-	background-color: #fff;
-	color: black;
-	text-decoration: none;
-	display: block;
-	text-align: center;
-	padding: 2%;
-	display: none;
 }
 
 #toggle{
@@ -190,6 +190,8 @@ label {
 
 @media only screen and (max-width: 760px){
 	nav a {
+		background-color: #aaaaaa;
+		color: #fff;
 		display: none;
 		float: none;
 		text-align: center;
