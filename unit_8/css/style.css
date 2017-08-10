@@ -79,10 +79,6 @@ article img {
 	float: right;
 }
 
-/*figcaption {
-	float: right;
-}*/
-
 p{
 	font-size: 1.75em;
 	margin: 1%;
@@ -169,20 +165,20 @@ label {
 }
 
 @media only screen and (max-width: 1120px){
-	#left {
-	float: none;
-	width: 100%;
-	text-align: left;
+		#left {
+		float: none;
+		width: 100%;
+		text-align: left;
+	}
+
+		#right {
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
 }
 
-#right {
-	float: none;
-	width: 100%;
-	text-align: center;
-}
-}
-
-@media only screen and (max-width: 1080px){
+@media only screen and (max-width: 960px){
 	nav a {
 		background-color: #aaaaaa;
 		color: #fff;
@@ -198,26 +194,41 @@ label {
 	#toggle:checked + nav a{
 		display: block;
 	}
-}
 
-
-@media only screen and (max-width: 760px){
-	nav a {
-		background-color: #aaaaaa;
-		color: #fff;
-		display: none;
+	article img {
+		width: 100%;
 		float: none;
-		text-align: center;
-	}
+}
 
-	label {
-		display: block;
-	}
-
-	#toggle:checked + nav a{
-		display: block;
+	footer {
+		font-size: 16px;
 	}
 }
+
+@media only screen and (max-width: 670px){
+		h1 {
+			font-size: 2em;
+		}
+
+		#slogan {
+			font-size: 1em;
+		}
+
+		#headline {
+			font-size: 1.5em;
+		}
+
+		p{
+			font-size: 1em;
+		}
+
+		footer{
+			font-size: 16px;
+		}
+}
+
+
+
 
 /*@media only screen and (min-width: 1800px) {
 	.wrapper {
