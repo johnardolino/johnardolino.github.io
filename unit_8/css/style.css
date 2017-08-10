@@ -227,6 +227,12 @@ label {
 		}
 }
 
+@media only screen and (max-width: 425px){
+		#fly{
+			font-size: 1.5em;
+		}
+}
+
 
 
 
