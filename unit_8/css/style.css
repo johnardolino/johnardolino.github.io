@@ -182,11 +182,24 @@ label {
 }
 }
 
-/*@media only screen and (max-width:; 960px){
-	footer {
-
+@media only screen and (max-width: 1080px){
+	nav a {
+		background-color: #aaaaaa;
+		color: #fff;
+		display: none;
+		float: none;
+		text-align: center;
 	}
-}*/
+
+	label {
+		display: block;
+	}
+
+	#toggle:checked + nav a{
+		display: block;
+	}
+}
+
 
 @media only screen and (max-width: 760px){
 	nav a {
