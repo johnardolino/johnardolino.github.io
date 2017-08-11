@@ -56,24 +56,6 @@ h1 {
 	color: #000;
 }
 
-#slogan {
-	font-style: italic;
-	font-size: 2em;
-	padding-bottom: 2.5%;
-	margin: 0 10 20 10;
-	letter-spacing: 2%;
-}
-
-#headline {
-	font-size: 2.5em;
-	font-weight: bold;
-	padding: 1%;
-}
-
-#city{
-	font-size: 1.3em;
-}
-
 article img {
 	width: 50%;
 	float: right;
@@ -113,6 +95,25 @@ label {
 	text-align: center;
 	padding: 2%;
 	display: none;
+}
+
+
+#slogan {
+	font-style: italic;
+	font-size: 2em;
+	padding-bottom: 2.5%;
+	margin: 0 10 20 10;
+	letter-spacing: 2%;
+}
+
+#headline {
+	font-size: 2.5em;
+	font-weight: bold;
+	padding: 1%;
+}
+
+#city{
+	font-size: 1.3em;
 }
 
 #fly {
@@ -165,6 +166,7 @@ label {
 }
 
 @media only screen and (max-width: 1120px){
+		
 		#left {
 		float: none;
 		width: 100%;
@@ -179,30 +181,26 @@ label {
 }
 
 @media only screen and (max-width: 960px){
-	nav a {
-		background-color: #aaaaaa;
-		color: #fff;
-		display: none;
-		float: none;
-		text-align: center;
-	}
+	
+		nav a {
+			background-color: #aaaaaa;
+			color: #fff;
+			display: none;
+			float: none;
+			text-align: center;
+		}
 
-	label {
-		display: block;
-	}
+		label {
+			display: block;
+		}
 
-	#toggle:checked + nav a{
-		display: block;
-	}
-/*
-	article img {
-		width: 100%;
-		float: none;
-}*/
+		#toggle:checked + nav a{
+			display: block;
+		}
 
-	footer {
-		font-size: 16px;
-	}
+		footer {
+			font-size: 16px;
+		}
 }
 
 @media only screen and (max-width: 910px){
@@ -210,10 +208,12 @@ label {
 		article img{
 			width: 85%;
 			float: none;
+			margin: auto;
 		}
 }
 
 @media only screen and (max-width: 670px){
+		
 		h1 {
 			font-size: 2em;
 		}
@@ -223,7 +223,11 @@ label {
 		}
 
 		#headline {
-			font-size: 1.2em;
+			font-size: 1.1em;
+		}
+
+		#city{
+			font-size: 1em;
 		}
 
 		p{
@@ -240,10 +244,13 @@ label {
 }
 
 @media only screen and (max-width: 440px){
+		
 		#fly{
 			font-size: 1.5em;
 		}
-		footer 
+		footer{
+
+		} 
 }
 
 
