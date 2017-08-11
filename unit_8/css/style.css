@@ -31,7 +31,7 @@ nav a{
 	text-decoration: none;
 	display: block;
 	float: left;
-	padding: 2%;
+	padding: /*2%*/ 1em;
 	transition: background-color ease-in-out .5s;
 }
 
@@ -42,8 +42,8 @@ a:hover {
 header {
 	text-align: center;
 	border: 1px black solid;
-	padding: 1%;
-	margin: 1%;
+	padding: /*1%*/ 1em;
+	margin: /*1%*/ 1em;
 	border: solid 5px black;
 }
 
