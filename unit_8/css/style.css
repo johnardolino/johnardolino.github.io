@@ -212,6 +212,9 @@ label {
 			margin: auto;
 			padding-left: 40px;
 		}
+		span {
+			display: block;
+		}
 }
 
 @media only screen and (max-width: 670px){
