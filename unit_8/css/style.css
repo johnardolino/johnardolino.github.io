@@ -75,7 +75,7 @@ h1 {
 }
 
 article img {
-	max-width: 360px;
+	width: 50%;
 	float: right;
 }
 
@@ -194,15 +194,23 @@ label {
 	#toggle:checked + nav a{
 		display: block;
 	}
-
+/*
 	article img {
 		width: 100%;
 		float: none;
-}
+}*/
 
 	footer {
 		font-size: 16px;
 	}
+}
+
+@media only screen and (max-width: 910px){
+		
+		article img{
+			width: 85%;
+			float: none;
+		}
 }
 
 @media only screen and (max-width: 670px){
@@ -220,6 +228,10 @@ label {
 
 		p{
 			font-size: 1em;
+		}
+
+		article img {
+			width: 100%;
 		}
 
 		footer{
