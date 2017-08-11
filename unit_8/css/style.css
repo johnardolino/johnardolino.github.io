@@ -32,6 +32,7 @@ nav a{
 	display: block;
 	float: left;
 	padding: 2%;
+	transition: background-color ease-in-out .5s;
 }
 
 a:hover {
@@ -209,6 +210,7 @@ label {
 			width: 85%;
 			float: none;
 			margin: auto;
+			padding-left: 40px;
 		}
 }
 
@@ -236,6 +238,7 @@ label {
 
 		article img {
 			width: 100%;
+			padding: 0;
 		}
 
 		footer{
