@@ -31,7 +31,7 @@ nav a{
 	text-decoration: none;
 	display: block;
 	float: left;
-	padding: /*2%*/ 1em;
+	padding: .9em;
 	transition: background-color ease-in-out .5s;
 }
 
@@ -42,8 +42,8 @@ a:hover {
 header {
 	text-align: center;
 	border: 1px black solid;
-	padding: /*1%*/ 1em;
-	margin: /*1%*/ 1em;
+	padding: .1em;
+	margin: .1em;
 	border: solid 5px black;
 }
 
@@ -52,7 +52,7 @@ h1 {
 	font-family: 'Droid Serif', serif;
 	font-size: 4em;
 	font-weight: normal;
-	padding: 1.5%;
+	padding: /*1.5%*/ .2em;
 	letter-spacing: 10%;
 	color: #000;
 }
@@ -64,7 +64,7 @@ article img {
 
 p{
 	font-size: 1.75em;
-	margin: 1%;
+	margin: .5em;
 }
 
 img {
@@ -83,7 +83,7 @@ div/section {
 
 footer {
 	border: 1px black solid;
-	padding: 2%;
+	padding: 1em;
 	text-align: center;
 	background-color: #eee;
 }
@@ -102,7 +102,7 @@ label {
 #slogan {
 	font-style: italic;
 	font-size: 2em;
-	padding-bottom: 2.5%;
+	padding-bottom: .6em;
 	margin: 0 10 20 10;
 	letter-spacing: 2%;
 }
@@ -110,7 +110,7 @@ label {
 #headline {
 	font-size: 2.5em;
 	font-weight: bold;
-	padding: 1%;
+	padding: /*1%*/ .3em;
 }
 
 #city{
@@ -125,13 +125,13 @@ label {
 #two_column {
 	background-color: white;
 	border: 1% black solid;
-	padding: 2%;
+	padding: /*2%*/ .3em;
 }
 
 #left {
 	background-color: white;
 	border: 1px black solid;
-	padding: 2%;
+	padding: .1em;
 	float: left;
 	width: 62%;
 	text-align: left;
@@ -141,7 +141,7 @@ label {
 	color: white;
 	background-color: #237BCC;
 	border: 1px black solid;
-	padding: 2%;
+	padding: .6em;
 	float: right;
 	width: 36%;
 	text-align: center;
