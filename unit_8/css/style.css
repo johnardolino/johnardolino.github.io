@@ -21,8 +21,8 @@ nav {
 	font-family: 'News Cycle', sans-serif;
 	font-size: 1.5em;
 	font-weight: 600;
-	letter-spacing: 5%;
-	word-spacing: 30%;
+	letter-spacing: .001em;
+	word-spacing: 1em;
 }
 
 nav a{
@@ -53,7 +53,7 @@ h1 {
 	font-size: 4em;
 	font-weight: normal;
 	padding: /*1.5%*/ .2em;
-	letter-spacing: 10%;
+	letter-spacing: .001em;
 	color: #000;
 }
 
@@ -78,7 +78,7 @@ a {
 
 div/section {
 	border: 1px black solid;
-	padding: 2%;
+	padding: .2em;
 }
 
 footer {
@@ -94,7 +94,7 @@ label {
 	text-decoration: none;
 	display: block;
 	text-align: center;
-	padding: 2%;
+	padding: .2em;
 	display: none;
 }
 
@@ -104,7 +104,7 @@ label {
 	font-size: 2em;
 	padding-bottom: .6em;
 	margin: 0 10 20 10;
-	letter-spacing: 2%;
+	letter-spacing: .01em;
 }
 
 #headline {
@@ -182,7 +182,8 @@ label {
 }
 
 @media only screen and (max-width: 1020px){
-			nav a {
+		
+		nav a {
 			font-size: .9em;
 		}
 		
@@ -261,9 +262,7 @@ label {
 		#fly{
 			font-size: 1.5em;
 		}
-		footer{
-
-		} 
+	
 }
 
 
