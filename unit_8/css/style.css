@@ -224,6 +224,12 @@ label {
 		}
 }
 
+@media only screen and (max-width: 720px){
+		h1 {
+			font-size: 1.5em;
+		}
+}
+
 @media only screen and (max-width: 670px){
 		
 		h1 {
