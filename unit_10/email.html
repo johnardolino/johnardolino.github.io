@@ -2,12 +2,42 @@
 <html>
 <head>
 	<title>Seahorse Mail</title>
+
+	 <style type="text/css">
+	 	@media only screen and (max-device-width: 480px){
+
+	 		#main-table {
+	 			width: 100%;
+	 		}
+	 		#logo {
+	 			width: 100%;
+	 		}
+	 		#cars {
+	 			width: 90%;
+	 		}
+	 		#pancakes {
+	 			width: 90%;
+	 		}
+	 		#breaking {
+	 			font-size: 16px;
+	 		}
+	 		#recipe {
+	 			font-size: 16px;
+	 		}
+	 		a {
+	 			display: block;
+	 			text-align: center;
+	 			padding: 10px;
+	 		}
+	 	}
+	 </style>
+	 	
 </head>
 <body style="margin: 0; padding: 0;">
 	<table border="0" cellpadding="0" cellspacing="0" width="100%">
 		<tr>
 			<td>
-				<table align="center" border="0" cellpadding="0" cellspacing="0" width="600" style="border-collapse: collapse;">
+				<table align="center" border="0" cellpadding="0" cellspacing="0" width="600" id="main-table" style="border-collapse: collapse;">
 					<tr style= "background-color: #E5E3E3"> 
 						<td align= "center" style="padding: 30px 0 30px 0;">
 							<span style="font-family: Times, Arial; font-size: 40px; color: black;">THE DAILY SEAHORSE</span>
@@ -15,7 +45,7 @@
 					</tr>
 					<tr style= "background-color: #E5E3E3">
 						<td align="center" style="padding: 20px 0 40px 0;">
-							<img src="https://i.pinimg.com/564x/09/50/78/0950780f52f369eefa3f4dc11df6a412.jpg" Title= "Seahorse Logo" alt="Seahorse" width="300" height="300" style="display: block;" />
+							<img src="https://i.pinimg.com/564x/09/50/78/0950780f52f369eefa3f4dc11df6a412.jpg" Title= "Seahorse Logo" alt="Seahorse" id= "logo" width="300" height="300" style="display: block;" />
 						</td>
 					</tr>
 					<tr style= "background-color: #ffffff">
@@ -39,12 +69,12 @@
 													<table border="0" cellpadding="0" cellspacing="0" width="100%">
 														<tr>
 															<td>
-																<img src="http://68.media.tumblr.com/f6d289cd91abf3e2d381535ad3e88840/tumblr_nk1fk9p0X81u9boqso1_1280.jpg" title="matchbox car funeral" alt="toy nattle" width="100%" height="140" style="display: block;">
+																<img src="http://68.media.tumblr.com/f6d289cd91abf3e2d381535ad3e88840/tumblr_nk1fk9p0X81u9boqso1_1280.jpg" title="matchbox car funeral" alt="toy battle" id="cars" width="100%" height="140" style="display: block;">
 															</td>
 														</tr>
 														<tr>
 															<td style="padding: 25px 0 0 0;">
-																<span style="font-family: Times; font-size: 20px; color: black">BREAKING NEWS: 
+																<span style="font-family: Times; font-size: 20px; color: black" id="breaking">BREAKING NEWS: 
 											                     Matchbox cars come to pay their respects to fallen Transformer, Bumblebee, after horrific toy battle on the living room floor.</span>     
 															</td>
 														</tr>
@@ -56,12 +86,12 @@
 													<table border="0" cellpadding="0" cellspacing="0" width="100%">
 														<tr>
 															<td>
-																<img src="https://static01.nyt.com/images/2017/03/24/dining/24COOKING-CLASSICPANCAKES/24COOKING-CLASSICPANCAKES-videoSixteenByNineJumbo1600.jpg" title= "stack of pancakes"	alt= "pancakes"	width="100%" height="140" style="display: block;">
+																<img src="https://static01.nyt.com/images/2017/03/24/dining/24COOKING-CLASSICPANCAKES/24COOKING-CLASSICPANCAKES-videoSixteenByNineJumbo1600.jpg" title= "stack of pancakes"	alt= "pancakes"	id="pancakes" width="100%" height="140" style="display: block;">
 															</td>
 														</tr>
 														<tr>
 															<td style="padding: 25px 0 0 0;">
-																<span style="font-family: Times; font-size: 20px; color: black">Try out the greatest pancake recipe of ALL TIME.</span>	
+																<span style="font-family: Times; font-size: 20px; color: black" id="recipe">Try out the greatest pancake recipe of ALL TIME.</span>	
 															</td>
 														</tr>
 													</table>
@@ -76,7 +106,7 @@
 					<tr style="background-color: grey">
 			  			<td align="center">
 			    			<span style="font-family: Times, Arial, serif; font-size: 20px; font-weight: bold;">
-			       				<a href="#" style="color: white; padding: 0 10px;">News</a> <a href="#" style="color: white; padding: 0 10px;">About</a> <a href="#" style="color: white; padding: 0 10px;"> Contact</a></span>
+			       				<a href="#" style="color: white; padding: 0 20px;">News</a> <a href="#" style="color: white; padding: 0 20px;">About</a> <a href="#" style="color: white; padding: 0 20px;"> Contact</a></span>
 			       		</td>
 			    	</tr>
 				</table>
