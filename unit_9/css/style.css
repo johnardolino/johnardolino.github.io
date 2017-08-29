@@ -157,6 +157,16 @@ label {
 	margin: 0 auto;
 }
 
+#pizza {
+	color: red;
+	background-color: #ff0000;
+	border: 1px black solid;
+	padding: .6em;
+	float: right;
+	width: 36%;
+	text-align: center;
+}
+
 .clearfix:after {
 	visibility: hidden;
 	display: block;
@@ -165,6 +175,8 @@ label {
 	clear: both;
 	height: 0;
 }
+
+#pie
 
 @media only screen and (max-width: 1120px){
 		
