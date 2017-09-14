@@ -151,20 +151,39 @@ label {
 	display: none;
 }
 
-.wrapper {
-	width: 90%;
-	/*max-width: 1400px;*/
-	margin: 0 auto;
+#toy_stories {
+	background-color: white;
+	border: 1% black solid;
+	padding: /*2%*/ .3em;
+}
+
+#article {
+	background-color: white;
+	border: 1px black solid;
+	padding: .1em;
+	float: left;
+	width: 62%;
+	text-align: left;
 }
 
 #pizza {
-	color: red;
-	background-color: #ff0000;
+	color: white;
+	background-color: red;
 	border: 1px black solid;
 	padding: .6em;
 	float: right;
 	width: 36%;
 	text-align: center;
+}
+
+#pie {
+	font-size: 2em;
+}
+
+.wrapper {
+	width: 90%;
+	/*max-width: 1400px;*/
+	margin: 0 auto;
 }
 
 .clearfix:after {
@@ -176,7 +195,9 @@ label {
 	height: 0;
 }
 
-#pie
+
+
+
 
 @media only screen and (max-width: 1120px){
 		
