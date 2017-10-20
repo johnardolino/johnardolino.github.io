@@ -180,11 +180,26 @@ label {
 	font-size: 2em;
 }
 
+
 .wrapper {
 	width: 90%;
 	/*max-width: 1400px;*/
 	margin: 0 auto;
 }
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; 
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 
 .clearfix:after {
 	visibility: hidden;
