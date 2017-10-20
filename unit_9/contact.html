@@ -5,6 +5,37 @@
 		<title>Daily Seahorse</title>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<!--[if it IE 9]><script src="bower_components/html5shiv/dist/html5shiv.js"></script><![endif]-->
+		<!-- <style>
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+</style> -->
 	</head>
 
 <body>
@@ -21,44 +52,29 @@
 			<a href="https://johnardolino.github.io/unit_9/contact.html">Contact</a>
 		</nav>
 
-<h1>CONTACT THE SEAHORSE</h1>
+<h1>Contact The Seahorse</h1>
 
 <div class="container">
-<form action="/action_page.php">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
-<label for="fname" id="first">First Name</label>
-<input type="text" id="fname" name="firstname" placeholder="First name..">
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
-<label for="lname" id="last">Last Name</label>
-<input type="text" id="lname" name="lastname" placeholder="Last name..">
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
 
-<label for="country" id="country">Country</label>
-<select id="country" name="country">
- <option value="USA">USA</option>
- <option
- value="Mexico">Mexico</option>
- <option
-value="Someplace Else">Someplace Else</option>
-</select>
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Waddaya want.." style="height:200px"></textarea>
 
-<label for="subject">Subject</label>
-
-
-<label for="country" id="country">Country</label>
-<select id="country" name="country">
-  <option value="USA">USA</option>
-  <option
-  value="Mexico">Mexico</option>
-  <option
-value="Someplace Else">Someplace Else</option>
-</select>
-
-<label for="subject" id="subject">Subject</label>
-<textarea id="subject" name="subject" placeholder="Waddaya want?.." style="height:200px"></textarea>
-
-<input type="submit" value="Submit">
-
-</form>
+    <input type="submit" value="Submit">
+  </form>
 </div>
+
 </body>
 </html>
