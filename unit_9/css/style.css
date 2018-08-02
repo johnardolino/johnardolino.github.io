@@ -224,7 +224,7 @@ input[type=submit]:hover {
 
 .food {
 	background-color: #FFC2CD;
-	border-style: dashed;
+	border-style: solid;
 	border-color: black;
 }
 
